@@ -20,4 +20,19 @@ public class MemberServiceImpl implements MemberService{
       public Member findMember(Long memberId) {
             return memberRepository.findById(memberId);
       }
+      public MemberRepository getMemberRepository(){
+            return memberRepository;
+      }
+      public void setMemberRepository(MemberRepository memberRepository){
+            this.memberRepository = memberRepository;
+      }
+      public void clearStore(){
+            memberRepository.clearStore();
+      }
+      public void setMemberRepository(){
+            memberRepository.clearStore();
+      }
+      public void setMemberRepository(){
+            memberRepository.clearStore();
+      }
 }
