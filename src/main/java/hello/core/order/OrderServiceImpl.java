@@ -28,11 +28,6 @@ public class OrderServiceImpl implements OrderService{
       public DiscountPolicy getDiscountPolicy() {
             return discountPolicy;
       }
-      public void setMemberRepository(MemberRepository memberRepository) {
-            this.memberRepository = memberRepository;
-      }
-      public void setDiscountPolicy(DiscountPolicy discountPolicy) {
-            this.discountPolicy = discountPolicy;
-      }
+
 
 }
